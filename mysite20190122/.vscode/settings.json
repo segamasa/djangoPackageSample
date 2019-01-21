@@ -1,0 +1,18 @@
+{
+  "workbench.colorTheme": "Solarized Dark",
+  "python.pythonPath": "${workspaceFolder}\\env\\Scripts\\python.exe",
+  // 統合ターミナル
+  "terminal.integrated.shell.windows": "C:\\Windows\\system32\\cmd.exe",
+  // "terminal.integrated.shellArgs.windows": [
+  //   "/k",
+  //   "C:\\Git\\djangoPackageSample\\mysite20190122\\env\\Scripts\\activate.bat"
+  // ],
+  // lintツール
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintArgs": [
+    "--errors-only",
+    "--load-plugins",
+    "pylint_django"
+  ],
+  "git.ignoreLimitWarning": true
+}
